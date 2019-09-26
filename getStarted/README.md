@@ -14,16 +14,14 @@ To get started, you must first clone or download then unzip the [Clouduino repos
     ![clouduino_repo](/docs/images/github.PNG)
 
 ## Use your Clouduino Stratus on the Arduino Desktop IDE ##
-If you want to program your Clouduino Stratus then you will need to install the [Arduino Desktop IDE](https://www.arduino.cc/en/Main/Software). To connect the Clouduino Stratus to your computer, you’ll need a Mini-B USB cable. This also provides power to the board. 
+To program the Clouduino Stratus, you will need to install [Arduino IDE](https://www.arduino.cc/en/Main/Software). Connect the Clouduino Stratus to your computer using a mini-B USB cable. This shall also provide power to the board. 
 
 ## Install the board drivers and other library dependencies ##
+Start installing the ESP8266 board driver with boards manager in Arduino IDE. 
 
-Let's start with installing the ESP8266 board driver with boards manager in Arduino IDE. 
-
-1. Start Arduino. Click on File menu then select Preferences.
-2. Enter `http://arduino.esp8266.com/stable/package_esp8266com_index.json` into Additional Board Manager URLs field. You can add multiple URLs, separating them with commas. 
-    
-3. Open Boards Manager from Tools > Board menu and install the latest stable esp8266 platform 
+1. Open Arduino IDE. Go to File menu then select Preferences.
+2. Enter `http://arduino.esp8266.com/stable/package_esp8266com_index.json` into Additional Board Manager URLs field. You can add multiple URLs, separating them with commas.   
+3. Go to Tools > Board menu > Open Boards Manager and install the latest stable esp8266 platform 
     ![boards_manager](/docs/images/boards_manager.png)
 4. Go to Tools again >  Board > Select Generic ESP8266 Module.
     ![choosing_board](/docs/images/choosing_board.png)
@@ -31,7 +29,7 @@ Let's start with installing the ESP8266 board driver with boards manager in Ardu
     - ESP8266 Arduino core github [link](https://github.com/esp8266/Arduino)
  
 There are two essential libraries you must install for Clouduino: [MCP23S17](https://github.com/n0mjs710/MCP23S17) for controlling GPIO pins and [MCP3208](https://github.com/labfruits/mcp3208) for controlling ADC pins. 
-You have to import these libraries to Arduino IDE by simple following the steps below:
+You have to import these libraries to Arduino IDE by simply following the steps below:
 
 1. First download these libraries as ZIP file. No need to unzip, leave it as it is.
     - [MCP23S17](https://github.com/n0mjs710/MCP23S17)  - GPIO Expander
@@ -39,7 +37,7 @@ You have to import these libraries to Arduino IDE by simple following the steps 
 2. In the Arduino IDE, navigate to Sketch menu > Include Library > Add .ZIP Library > Select Add .ZIP Library > Find and open MCP3208-master ZIP file.
 3. Repeat step 2 for MCP23S17-master ZIP file.
    
-Note that you only have to install the ESP8266 board driver and the two essential libraries once. Do, however, check for library updates often at the library manager!
+Note that you only have to install the ESP8266 board driver and the two essential libraries once. Do, however, check for library updates often at the library manager
 
 ## Open your first sketch ##
 You are now ready to try out your first sketch in Arduino IDE.
