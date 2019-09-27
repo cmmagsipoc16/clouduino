@@ -2,7 +2,7 @@
   "packages":
   [
     {
-      "name" : "Clouduino",
+      "name" : "Clouduino Boards",
       "maintainer": "DeepTech Lab",
       "help": {
         "online": "https://github.com/cmmagsipoc16/clouduino"
@@ -45,7 +45,6 @@
               "name": "mkspiffs"
             }
           ],
-          "name": "Clouduino Boards"
         },
       ],
       "tools": [
