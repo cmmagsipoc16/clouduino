@@ -2,6 +2,7 @@
   "packages":
   [
     {
+      "name" : "Clouduino",
       "maintainer": "DeepTech Lab",
       "help": {
         "online": "https://github.com/cmmagsipoc16/clouduino"
@@ -9,7 +10,7 @@
       "websiteURL": "https://github.com/cmmagsipoc16/clouduino",
       "platforms": [
         {
-          "category": "Clouduino",
+          "category": "ESP8266",
           "help": {
             "online": "https://github.com/cmmagsipoc16/clouduino"
           },
