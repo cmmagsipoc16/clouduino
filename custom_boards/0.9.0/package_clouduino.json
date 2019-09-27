@@ -9,7 +9,7 @@
       "websiteURL": "https://github.com/cmmagsipoc16/clouduino",
       "platforms": [
         {
-          "category": "ESP8266",
+          "category": "Clouduino",
           "help": {
             "online": "https://github.com/cmmagsipoc16/clouduino"
           },
