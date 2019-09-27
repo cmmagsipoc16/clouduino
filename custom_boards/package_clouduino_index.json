@@ -2,7 +2,6 @@
   "packages":
   [
     {
-      "name" : "Clouduino Boards",
       "maintainer": "DeepTech Lab",
       "help": {
         "online": "https://github.com/cmmagsipoc16/clouduino"
