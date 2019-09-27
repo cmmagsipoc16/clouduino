@@ -2,7 +2,7 @@
   "packages":
   [
     {
-      "maintainer": "ESP8266 Community",
+      "maintainer": "DeepTech Lab",
       "help": {
         "online": "https://esp8266.com/arduino"
       },
