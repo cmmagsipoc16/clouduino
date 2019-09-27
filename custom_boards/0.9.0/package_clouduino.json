@@ -126,7 +126,7 @@
               "name": "mkspiffs"
             }
           ],
-          "name": "esp8266"
+          "name": "Clouduino"
         },
       ],
       "tools": [
