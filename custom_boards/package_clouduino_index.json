@@ -25,7 +25,7 @@
             },
             {
               "name": "Clouduino"
-            },
+            }
           ],
           "size": "15762364",
           "toolsDependencies": [
@@ -44,8 +44,8 @@
               "version": "0.2.0",
               "name": "mkspiffs"
             }
-          ],
-        },
+          ]
+        }
       ],
       "tools": [
         {
@@ -873,7 +873,7 @@
         }
       ],
       "email": "cmmagsipoc16@gmail.com",
-      "name": "Clouduino"
+      "name": "Clouduino Boards"
     }
   ]
 }
