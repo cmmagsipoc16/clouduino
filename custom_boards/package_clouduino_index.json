@@ -1,6 +1,5 @@
 {
-  "packages":
-  [
+  "packages": [
     {
       "maintainer": "DeepTech Lab",
       "help": {
@@ -15,18 +14,11 @@
           },
           "url": "https://cmmagsipoc16.github.io/clouduino/custom_boards/Clouduino-0.9.0.zip",
           "checksum": "SHA-256:231363ded4685109ceaa72da90ab5ea72d539c138be541681b2ec21e55644221",
+          "name" : "Clouduino Boards",
           "version": "0.9.0",
           "architecture": "esp8266",
           "archiveFileName": "Clouduino-0.9.0.zip",
-          "boards": [
-            {
-              "name": "Generic ESP8266 Module"
-            },
-            {
-              "name": "Clouduino"
-            }
-          ],
-          "size": "15762364",
+          "size": "15153649",
           "toolsDependencies": [
             {
               "packager": "esp8266",
@@ -42,6 +34,14 @@
               "packager": "esp8266",
               "version": "0.2.0",
               "name": "mkspiffs"
+            }
+          ],
+          "boards": [
+            {
+              "name": "Generic ESP8266 Module"
+            },
+            {
+              "name": "Clouduino Stratus"
             }
           ]
         }
